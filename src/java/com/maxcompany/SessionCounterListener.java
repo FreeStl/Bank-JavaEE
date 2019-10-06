@@ -37,6 +37,7 @@ public class SessionCounterListener implements HttpSessionListener {
 	totalActiveSessions--;
 	System.out.println("sessionDestroyed - deduct one session from counter");
         logSession();
+        //
   }
   
   private void logSession(){
